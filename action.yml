@@ -5,24 +5,8 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
-  access-token:
-    description: 'LINE Access Token'
-    required: true
-    default: 'Test'
   repository-name:
     description: 'Repository name'
-    required: true
-    default: 'Test'
-  issue-number:
-    description: 'Issue No.'
-    required: true
-    default: 'Test'
-  issue-title:
-    description: 'Issue Title'
-    required: true
-    default: 'Test'
-  issue-html-url:
-    description: 'Issue Title'
     required: true
     default: 'Test'
 outputs:
