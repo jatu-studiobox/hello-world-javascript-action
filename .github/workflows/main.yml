@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: jatu-studiobox/hello-world-javascript-action@v1.2
+        uses: jatu-studiobox/hello-world-javascript-action@v1.3
         with:
           who-to-greet: 'Mona the Octocat'
           repository-name: 'hello-world-javascript-action22'
