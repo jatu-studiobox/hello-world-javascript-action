@@ -10,7 +10,7 @@ jobs:
         uses: jatu-studiobox/hello-world-javascript-action@v1.1
         with:
           who-to-greet: 'Mona the Octocat'
-          repository-name: 'hello-world-javascript-action'
+          repository-name: 'hello-world-javascript-action22'
           issue-number: '12'
           issue-title: 'test'
           issue-html-url: 'https://github.com/jatu-studiobox/hello-world-javascript-action'
