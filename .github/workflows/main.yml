@@ -14,7 +14,7 @@ jobs:
           issue-number: '12'
           issue-title: 'test'
           issue-html-url: 'https://github.com/jatu-studiobox/hello-world-javascript-action'
-          access-token: ${{ secrets.LINE_NOTIFY_ACCESS_TOKEN }}
+          access-token: 'testtest'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
