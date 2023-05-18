@@ -10,6 +10,11 @@ jobs:
         uses: jatu-studiobox/hello-world-javascript-action@v1.1
         with:
           who-to-greet: 'Mona the Octocat'
+          access_token: ${{ secrets.LINE_NOTIFY_ACCESS_TOKEN }}
+          repository_name: ${{ github.event.repository.name }}
+          issue_number: ${{ github.event.issue.number }}
+          issue_title: ${{ github.event.issue.title }}
+          issue_html_url: ${{ github.event.issue.html_url }}
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
