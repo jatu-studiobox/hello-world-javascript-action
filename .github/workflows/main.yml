@@ -11,7 +11,7 @@ jobs:
         with:
           who-to-greet: 'Mona the Octocat'
           access_token: ${{ secrets.LINE_NOTIFY_ACCESS_TOKEN }}
-          repository_name: ${{ github.event.repository.name }}
+          repository_name: 'hello-world-javascript-action'
           issue_number: '1'
           issue_title: 'test'
           issue_html_url: 'https://github.com/jatu-studiobox/hello-world-javascript-action'
