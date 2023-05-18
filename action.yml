@@ -5,19 +5,19 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
-  access_token:
+  access-token:
     description: 'LINE Access Token'
     required: true
-  repository_name:
+  repository-name:
     description: 'Repository name'
     required: true
-  issue_number:
+  issue-number:
     description: 'Issue No.'
     required: true
-  issue_title:
+  issue-title:
     description: 'Issue Title'
     required: true
-  issue_html_url:
+  issue-html-url:
     description: 'Issue Title'
     required: true
 outputs:
