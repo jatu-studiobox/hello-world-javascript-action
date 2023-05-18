@@ -5,10 +5,21 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  access-token:
+    description: 'LINE Access Token'
+    required: true
   repository-name:
     description: 'Repository name'
     required: true
-    default: 'Test'
+  issue-number:
+    description: 'Issue No.'
+    required: true
+  issue-title:
+    description: 'Issue Title'
+    required: true
+  issue-html-url:
+    description: 'Issue Title'
+    required: true
 outputs:
   time: # id of output
     description: 'The time we greeted you'

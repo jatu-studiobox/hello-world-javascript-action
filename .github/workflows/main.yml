@@ -7,10 +7,14 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: jatu-studiobox/hello-world-javascript-action@v1.2
+        uses: jatu-studiobox/hello-world-javascript-action@v1.1
         with:
           who-to-greet: 'Mona the Octocat'
           repository-name: 'hello-world-javascript-action'
+          issue-number: '12'
+          issue-title: 'test'
+          issue-html-url: 'https://github.com/jatu-studiobox/hello-world-javascript-action'
+          access-token: ${{ secrets.LINE_NOTIFY_ACCESS_TOKEN }}
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
